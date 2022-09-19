@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio desafio modulo 3
+
+    </title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+
+    <!--navbar-->
+    <div class="container">
+    <div class="container" >
+      <div class="row" >
+        <div class="col-sm">
+          <nav
+          class="navbar navbar-expand-lg navbar-light bg-light shadow p-3 mb-5 bg-body rounded"
+        >
+      
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <!----->
+                <li class="nav-item">
+    
+    
+    <img src="./images/logo argentina programa.jpg" alt=" logo argentina programa" id="logoArgPro">
+    
+                  <!-------->
+                </li>
+                  <a class="nav-link" aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                  </svg> Facebook</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                  </svg> Instagram</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                  </svg> Twitter</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+                    ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                      <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                    </svg> Whatsapp</a
+                  >
+                </li>
+               
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+        </div>
+      </div>
+  
+    <!--banner-->
+    <div class="container container-banner ">
+      <div class="row align-items-center ">
+       
+      <div class="col aligm-item-center">
+      <img src="./images/foto mia.jpg" alt="mi foto" id="mi-foto"  />
+        </div>
+
+        <div class="col-8">
+          <h1>Marcelo Guillemo Iglesia</h1>
+          <h3>MEDICO</h3>
+          <h3> FULL STACK DEVELOPER JR.</h3>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section>
+    <div class="container container-datos " >
+      <div class="row justify-content-around">
+        <div class="col">
+          <ul>
+            <li>FECHA DE NACIMIENTO: 13 DE JULIO DE 1963</li>
+            <li>    MACIONALIDAD: ARGENTINO</li>
+            <li>   TELEFONO: 011-15-33517780</li>
+            <li>  E-MAIL: marguigle@yahoo.com.ar</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section><br><br>
+  <section>
+    <div class="container">
+    <div class="row">
+  <div class="col"> <h4 id="titulo-trabajos">EXPERIENCIA LABORAL</h4></div>
+</div>
+
+      <div class="row align-content-end">
+
+        <div class="col-2">
+          <img src="./images/hospital VL.jpg" alt="HMVL" class="imagenes">
+        </div>
+        <div class="col-sm">
+          <p>
+            MEDICO INTERINO DE GUARDIA EN TERAPIA INTENSIVA DEL HOSPITAL" B. A.
+            HOUSSAY" DE VICENTE LOPEZ DESDE 1/6/94 -MEDICO DE TERAPIA INTENSIVA CON
+            NOMBRAMIENTO DE 36 HS DEL HOSPITAL "B.A.HOUSSAY" DESDE 1995.</p> 
+          </div>
+          <div class="row">
+            <div class="col" style="height:30px ;"></div>
+          </div>
+
+          <div class="row">
+            <div class="col-2">
+          <img src="./images/laRibera.jpg" alt="la ribera" class="imagenes">
+            </div>
+              <div class="col-sm">
+                <p> COORDINADOR
+                  DE INTERNACION DEL "SANATORIO DE LA RIBERA " DE SAN FERNANDO DURANTE EL
+                  AÑO 2000 </p> 
+                </div>
+
+                <div class="row">
+                  <div class="col-sm" style="height:30px ;"></div>
+                </div>
+      
+</div>
+            
+          <div class="row">
+            <div class="col-2">
+          <img src="./images/emergencias.jpg" alt="emergencias" class="imagenes">
+          
+            </div>
+              <div class="col-sm">
+                <p>MEDICO DE GUARDIA DE UTIM EN "EMERGENCIAS S.A."-INTERNATIONAL
+                  HEALTH SERVICES DESDE EL AÑO2001 </p> 
+                </div>
+                <div class="row">
+                  <div class="col" style="height:30px ;"></div>
+                </div>
+      
+</div>
+            
+          <div class="row">
+            <div class="col-2">
+          <img src="./images/incucai.jpg" alt="INCUCAI" class="imagenes">
+            </div>
+              <div class="col-sm">
+                <p>COORDINADOR HOSPITALARIO DE TRASPLANTE
+                  NOMBRADO POR INCUCAI PARA EL HOSPITAL " B.HOUSSAY" DESDE MAYO DEL 2004.</p>
+                </div>
+                <div class="row">
+                  <div class="col" style="height:30px ;"></div>
+                </div>
+      
+</div>
+            
+          <div class="row">
+            <div class="col-2" >
+              <img src="./images/hospital VL.jpg" alt="HMVL" class="imagenes">
+            </div>
+              <div class="col-sm">
+                <p>COORDINADOR DE AREA ROJA DEL DEPARTAMENTO DE EMERGENCIAS DEL HOSPITAL
+                  B.HOUSSAY DESDE 2008 HASTA 2010 </p>
+                </div>
+                <div class="row">
+                  <div class="col-sm" style="height:30px ;"></div>
+                </div>
+      
+</div>
+            
+          <div class="row">
+            <div class="col-2">
+          <img src="./images/hospita san isidro.jpg" alt="HSI" class="imagenes">
+            </div>
+              <div class="col-sm">
+                <p>MEDICO DE GUARDIA DE UCI-UCO DEL
+                  HOSPITAL CENTRAL DE SAN ISIDRO, DR. MELCHOR POSSE.DESDE EL AÑO 2004 AL
+                  2006.</p>
+                </div>
+                <div class="row">
+                  <div class="col-sm" style="height:30px ;"></div>
+                </div>
+      
+</div>
+            
+          <div class="row">
+            <div class="col-2">
+          <img src="./images/hospita san isidro.jpg" alt="" class="imagenes" >
+            </div>
+              <div class="col-sm">
+                <p>MEDICO DE TERAPIA INTENSIVA DEL HOSPITAL CENTRAL DE SAN ISIDRO,
+                  DR. MELCHOR POSSE, DESDE EL AÑO 2006 HASTA FEBRERO DE2012.</p>
+                </div>
+                <div class="row">
+                  <div class="col-sm" style="height:30px ;"></div>
+                </div>
+      
+</div>
+            
+          <div class="row">
+            <div class="col-2">
+          <img src="./images/Logo_OSDE_2020.png" alt="" class="imagenes">
+            </div>
+              <div class="col-sm">
+                <p>MEDICO DE
+                  URGENCIAS DOMICILIARIAS DE OSDDE DESDE 2010 HASTA 2012 </p>
+                </div>
+                <div class="row">
+                  <div class="col" style="height:30px ;"></div>
+                </div>
+      
+</div>
+            
+          <div class="row justify-content-end">
+            <div class="col-2">
+          <img src="./images/Logo_OSDE_2020.png" alt="" class="imagenes">
+            </div>
+              <div class="col-sm">
+                <p>MEDICO DE
+                  INTERNACION DOMICILIARIA DE OSDE DESDE 2010 HASTA LA ACTUALIDAD.</p>
+                </div>
+                <div class="row">
+                  <div class="col" style="height:30px ;"></div>
+                </div>
+      
+</div>
+            
+          <div class="row">
+            <div class="col-2"> 
+              <img src="./images/trinidad.png" alt="trinidad" class="imagenes">         
+            </div>
+              <div class="col-sm">
+                <p>COORDINADOR DE GUARDIA DE SANATORIO DE LA TRINIDAD DE SAN ISIDRO, SEDE
+                  FLEMING, DESE FEBRERO DE FEBRERO DE 2013 HASTA DICIEMBRE DE 2015.</p> 
+                </div>
+                <div class="row">
+                  <div class="col" style="height:30px ;"></div>
+                </div>
+      
+</div>
+            
+          <div class="row">
+            <div class="col-2">
+          <img src="./images/logo swissMedical.png" alt="swissMedical" class="imagenes">
+            </div>
+              <div class="col-sm">
+                <p>MEDICO DE INTERNACION DOMICILIARIA PARA SWISS MEDICAL DESDE 2018 HASTA LA ACTUALIDAD</p>
+                </div>
+                <div class="row">
+                  <div class="col-sm" style="height:30px ;">
+                  
+                </div>
+      
+</div>
+    </div>
+
+      </div>
+  
+    </div>
+  </section><br><br>
+
+  <section>
+
+ 
+<div class="container">
+    <!--acordeones-->
+    <div class="row" id="acordeones">
+      <!--acordeones-->
+      <div class="col-2"></div>
+      <div class="col-md-8">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                ESTUDIOS CURSADOS
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <ul>
+                  <li>
+                    SECUNDARIO: COLEGIO " ALPE " BARCELONA, ESPAÑA (1976-78)
+                    BACHILLER - "JESUS EN EL HUERTO DE LOS OLIVOS”
+                  </li>
+
+                  <li>UNIVERSITARIO: MEDICINA - U.B.A.</li>
+
+                  <li>
+                    POSGRADO: RESIDENCIA DE CLINICA MÉDICA EN HOSPITAL "BERNARDO
+                    A. HOUSSAY" DESDE JULIO 2 DE 1990, HASTA MAYO 31 DE 1993
+                  </li>
+                  <li>
+                    JEFATURA DE RESIDENTES DE CLINICA MEDICA DESDE JUNIO 1 DE
+                    1993, HASTA MAYO 31 DE 1994
+                  </li>
+                  <li>
+                    CURSO SUPERIOR DE MEDICINA LEGAL - COLEGIO MEDICO DISTRITO
+                    IV
+                  </li>
+                  <li>
+                    CURSO DE COORDINADORES HOSPITALARIOS DE TRASPLANTE 2004
+                  </li>
+                  <li>
+                    CURSO DE COORDINADORES HOSPITALARIOS DE TRASPLANTE 2007
+                  </li>
+                  <li>
+                    CURSO DE CAPACITACION Y PERFECCIONAMIENTO TECNICO
+                    PROFESIONAL EN AUDITORIA MÉDICA Y GARANTIA DE CALIDAD EN
+                    SERVICIOS DE SALUD.2010
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                ROTACIONES - CONGRESOS – JORNADAS
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <ul>
+                  <li>
+                    - ROTACION POR EL SERVICIO DE CARDIOLOGIA DEL HOSPITAL
+                    "COSME ARGERICH"
+                  </li>
+
+                  <li>
+                    SIMPOCIO " ETADO ACTUAL DE LA RESISTENCIA BACTERIANA, ROL DE
+                    LOS INHIBIDORES DE LAS BETALACTAMASAS "- ANTIMICROBIANOS 90
+                    - II CONGRESO ITERNACIONAL DE SADEBAC –
+                  </li>
+
+                  <li>
+                    XVII JORNADAS NACIONALES INTERRESIDENCIAS DE CLINICA MÉDICA
+                    DEL 29 DE OCTUBRE AL 3 DE NOVIEMBRE DE 1990 –
+                  </li>
+
+                  <li>
+                    XVIII JORNADAS NACIONALES INTERRESIDENCIAS DE CLINICA MÉDICA
+                    - CONGRESO NACIONAL DE MEDICINA 1 DEL 14 AL 19 DE OCTUBRE DE
+                    1991
+                  </li>
+
+                  <li>
+                    XXI CONGRESO ARGENTINO DE MEDICINA INTERNA - XIII JORNADAS
+                    RIOPLATENCE DE MEDICINA INTERNA -ASOCIACION MEDICA ARGENTINA
+                    - SOCIEDAD DE MEDICINA INTERNA DE BUENOS AIRES –
+                  </li>
+
+                  <li>
+                    JORNADA ABIERTA DE TRABAJO : PLAN DE SALUD , ORGANIZADA POR
+                    LA SECRETARIA DE EXTENCION UNIVERSITARIA DE LA UNIVERSIDAD
+                    DE BUENOS AIRES Y LA SECRETARIA DE SALUD PUBLICA DE LA
+                    MUNICIPALIDAD DE VICENTE LOPEZ.-
+                  </li>
+
+                  <li>
+                    XXXII CONGRESO ARGENTINO DE REUMATOLOGIA - SOCIEDAD
+                    ARGENTINA DE REUMATOLOGIA DEL 24 AL 27 DE OCTUBRE DE 1993
+                  </li>
+
+                  <li>
+                    IX CONGRESO ARGENTINO DE TERAPIA INTENSIVA VIII JORNADAS
+                    RIOPLATENSES DE TERAPIA INTENSIVA, ORGANIZADO POR LA
+                    SOCIEDAD ARGENTINA DE TERAPIA INTENSIVA –
+                  </li>
+
+                  <li>
+                    CONGRESO ARGENTINO DE TERAPIA INTENSIVA ORGANIZADO POR LA
+                    SOCIEDAD ARGENTINA DE TERAPIA INTENSIVA SEPTIEMBRE DE 2002 –
+                  </li>
+
+                  <li>
+                    COMPLICACIONES CLINICAS POSOPERATORIAS - FACULTAD DE
+                    MEDICINA UNIVERSIDAD DE BUENOS AIRES -"HOSPITAL BERNARDO
+                    HOUSSAY”
+                  </li>
+
+                  <li>CURSO AVANZADO DE ASISTENCIA RESPIRATORIA MECANICA</li>
+
+                  <li>
+                    IV CONGRESO ARGENTINO DE PROCURACION DE ORGANOS Y TEJIDOS
+                    PARA TRASPLANTE, 2006
+                  </li>
+
+                  <li>
+                    CURSO ENTREVISTA FAMILIAR Y LEY DE DONANTE PRESUNTO,2006
+                  </li>
+
+                  <li>
+                    III JORNADAS NACIONALES DE COORDINACION HOSPITALARIA,2006
+                  </li>
+
+                  <li>
+                    1er SIMPOSIO INTERNACONAL DE SHOCK, HOSPITAL UNIVERSITARIO
+                    AUSTRAL, 2007
+                  </li>
+
+                  <li>
+                    PRIMERAS JORNADAS PROVINCIALES DE EMERGENCAS; ÉL SISTEMA DE
+                    EMERGENCIAS COMO POLITICA DE ESTADO’2008
+                  </li>
+
+                  <li>
+                    II SIMPOSIO INTERNACIONAL DE MEDICINA DE EMERGENCIAS, SAE,
+                    2009
+                  </li>
+
+                  <li>
+                    CONFERENCIA ’PAUTAS DE MANEJO DEL POTENCIAL DONANTE DE
+                    ORGANOS’ HOSPITAL BERNARDO HOUSSAY, DISERTANTE, 2009
+                  </li>
+
+                  <li>JORNADAS DE KINESIOLOGIA EN EL PACIENTE CRITICO, 2009</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                TRABAJOS PRESENTADOS
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <ul>
+                  <li>
+                    "SALMONELLOSIS EN L.E.S. "XII JORNADAS NACIONALES
+                    INTERRESIDENCIAS DE CLINICA MEDICA AÑO 1990
+                  </li>
+
+                  <li>
+                    "SEPSIS POR SHIGELLA" XVIII JORNADAS NACIONALES
+                    INTERRESIDEN- CIAS DE CLINICA MEDICA-CONGRESO NACIONAL DE
+                    MEDICINA 1 AÑO 1990
+                  </li>
+
+                  <li>
+                    "SACROILEITIS INFECCIOSA POR ESTAFILOCOCO AUREUS " XXI
+                    CONGRE- SOARGENTINO DE MEDICINA INTERNA ASOCIACION MEDICA
+                    ARGENTINA AÑO 1993-
+                  </li>
+
+                  <li>
+                    " LEPRA Y LUPUS ERITEMATOSO SISTEMICO " MECANISMOS COMUNES
+                    DE DESREGULACION AUTOINMUNE - XXI CONGRESO ARGENTINO DE
+                    MEDICI-NA INTERNA- ASOCIACION MEDICA AGENTINA AÑO 1993-
+                  </li>
+
+                  <li>
+                    "SINDROME ANTIFOSFOLIPIDICO PRIMARIO"-XXXII CONGRESO
+                    ARGENTINO DE REUMATOLOGIA SOCIEDAD ARGENTINA DE REUMATOLOGIA
+                    AÑO 1993-
+                  </li>
+
+                  <li>
+                    MONOGRAFIA "RESPONSABILIDAD PROFECIONAL PRESENTADA EN EL
+                    CURSO SUPERIOR DE MEDICINA LEGAL AÑO 2000
+                  </li>
+
+                  <li>
+                    MONOGRAFIA "PROYECTO GENOMA HUMANO " PRESENTADA EN EL CURSO
+                    SUPERIOR DE MEDICINA LEGAL AÑO 2000
+                  </li>
+
+                  <li>
+                    MONOGRAFIA "DELINCUENCIA FEMENINA" PRESENTADA EN EL CURSO
+                    SUPERIOR DE MEDICINA LEGAL AÑO 2000-
+                  </li>
+
+                  <li>
+                    MONOGRAFIA "ENFERMEDAD RESPIRATORIA OCUPACIONAL" PRESENTADA
+                    EN EL CURSO SUPERIOR DE MEDICINA LEGAL AÑO 2000
+                  </li>
+                  <li>
+                    ÉVALUACION DE LA MORTALIDAD,CAUSAS MAS FRECUENTES E
+                    INDICACIONES DDE HEMDIALISIS EN LA INSUFICIENCIA RENAL
+                    AGUDA,18 O CONGRESO ARGENTINO DE TERAPIA INTENSIVA,2008
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                ACTIIVIDAD DOCENTE
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <ul>
+                  <li>
+                    DOCENTE DEL CURSO TEORICO-PRACTICO "COMPLICACIONES CLINICAS
+                    POSOPERATORIAS "REALIZADO ENTRE EL MES DE MAYO Y DICIEMBRE
+                    DE 1993, DURACION CINCUENTA HORAS.
+                  </li>
+
+                  <li>
+                    DOCENTE DE MEDICINA I Y II DE LA CARRERA DE MEDICINA DE LA
+                    UNIVERSIDAD AUSTRAL DESDE EL AÑO 2000
+                  </li>
+
+                  <li>
+                    DISERTANTE EN EL CURSO DE EMERGENTOLOGIA ORGANIZADO POR EL
+                    DEPARTAMENTO DE EMERGENCIAS DEL HOSPITAL" BERNARDO A HOUSSAY
+                    " DE VICENTE LOPEZ-
+                  </li>
+
+                  <li>
+                    CARRERA DOCENTE DICTADA POR LA FACULTAD DE MEDICINA DE LA
+                    UBA.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section><br><br>
+
+  <div class="container" style="margin: top 30px"; >
+          <div class="col"></div>
+    </div>
+  </div>
+<!---soft & hard skills-->
+<div class="container">
+  <div class="shadow-lg p-3 mb-5 bg-body rounded"> 
+   <h2> Hard Skills</h2>
+  </div>
+</div>
+</section>
+
+
+<div class="row">
+
+<div class="col-2">
+  
+</div>
+<div class="col-8">
+<!--skills-->
+<div class="container">    HTML
+  <div class="shadow-lg p-3 mb-5 bg-body rounded"> <div class="progress">
+    <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="60" class="h-25 d-inline-block">  75%</div>
+  </div>
+</div>
+</div> 
+ <div class="container">    CSS
+  <div class="shadow-lg p-3 mb-5 bg-body rounded"> 
+    <div class="progress">
+    <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="60" class="h-25 d-inline-block">  75%</div>
+  </div>
+</div>
+</div> 
+ <div class="container" >    BOOTSTRAP
+  <div class="shadow-lg p-3 mb-5 bg-body rounded" > <div class="progress">
+    <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="60" class="h-25 d-inline-block">  50%</div>
+  </div>
+</div>
+</div> 
+ <div class="container" >    JAVASCRIPT
+  <div class="shadow-lg p-3 mb-5 bg-body rounded"> <div class="progress">
+    <div class="progress-bar bg-info" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="60" class="h-25 d-inline-block">  70%</div>
+  </div>
+</div>
+</div> 
+ <div class="container">    ANGULAR
+  <div class="shadow-lg p-3 mb-5 bg-body rounded"> <div class="progress">
+    <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="60" class="h-25 d-inline-block">  50%</div>
+  </div>
+</div>
+</div> 
+
+</div>
+<div class="col-2">
+</div>
+
+
+
+</div>
+
+<div class="container">
+  <div class="shadow-lg p-3 mb-5 bg-body rounded"> 
+   <h2> Soft Skills</h2>
+  </div>
+</div>
+   
+<div class="row">
+
+  <div class="col-2">
+    
+  </div>
+  <div class="col-8">
+  <!--skills-->
+  <div class="container">   FLEXIBILIDAD ADAPTACION AL CAMBIO
+    <div class="shadow-lg p-3 mb-5 bg-body rounded"> <div class="progress">
+      <div class="progress-bar bg-info" role="progressbar" style="width: 85%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="60" class="h-25 d-inline-block">85%</div>
+    </div>
+  </div>
+  </div> 
+   <div class="container">   RESPONSABILIDAD 
+    <div class="shadow-lg p-3 mb-5 bg-body rounded"> 
+      <div class="progress">
+      <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="60" class="h-25 d-inline-block">90%</div>
+    </div>
+  </div>
+  </div> 
+   <div class="container">   ACTITUD POSITIVA
+    <div class="shadow-lg p-3 mb-5 bg-body rounded" > <div class="progress">
+      <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="60" class="h-25 d-inline-block">80%</div>
+    </div>
+  </div>
+  </div> 
+   <div class="container" >   EMPATIA
+    <div class="shadow-lg p-3 mb-5 bg-body rounded"> <div class="progress">
+      <div class="progress-bar bg-info" role="progressbar" style="width: 95%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="60" class="h-25 d-inline-block">95%</div>
+    </div>
+  </div>
+  </div> 
+   <div class="container">   RESILIENCIA
+    <div class="shadow-lg p-3 mb-5 bg-body rounded"> <div class="progress">
+      <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="60" class="h-25 d-inline-block">90%</div>
+    </div>
+  </div>
+  </div> 
+  
+   <div class="container">   TRABAJO EN EQUIPO
+    <div class="shadow-lg p-3 mb-5 bg-body rounded"> <div class="progress">
+      <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="60" class="h-25 d-inline-block">90%</div>
+    </div>
+  </div>
+  </div> 
+  
+   <div class="container">   AUTODISCIPLINA
+    <div class="shadow-lg p-3 mb-5 bg-body rounded"> <div class="progress">
+      <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="60" class="h-25 d-inline-block">90%</div>
+    </div>
+  </div>
+  </div> 
+  
+  
+  
+  
+  </div>
+  <div class="col-2">
+  
+  </div>
+  
+  
+  
+  </div> 
+
+</section>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+<p style=" justify-content:center ">FOOTER</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
