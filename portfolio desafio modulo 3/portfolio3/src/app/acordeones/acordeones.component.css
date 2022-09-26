@@ -1,0 +1,6 @@
+#titulo-acordeones h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 5px 30px;
+}
