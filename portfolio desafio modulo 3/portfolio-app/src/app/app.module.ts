@@ -5,24 +5,21 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { BannerComponent } from './banner/banner.component';
 import { ExpLaboralComponent } from './exp-laboral/exp-laboral.component';
-import { AcordeonesComponent } from './acordeones/acordeones.component';
+import { EstudiosComponent } from './estudios/estudios.component';
 import { SkillsComponent } from './skills/skills.component';
-import { FooterComponent } from './footer/footer.component';
-
+import { PortfolioService } from './servicios/portfolio.service';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     BannerComponent,
     ExpLaboralComponent,
-    AcordeonesComponent,
+    EstudiosComponent,
     SkillsComponent,
-    FooterComponent
   ],
-  imports: [
-    BrowserModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+  imports: [BrowserModule, HttpClientModule],
+  providers: [PortfolioService],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

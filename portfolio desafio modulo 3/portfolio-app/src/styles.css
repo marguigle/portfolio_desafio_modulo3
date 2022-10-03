@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f5f6;
+}
+.container {
+  background-color: #f1f5f6;
+  border-radius: 5px;
+}
+#logoArgPro {
+  display: flex;
+  max-width: 100px;
+  margin-right: 30rem;
+}
+#navbar {
+  background-color: #a0aeb1;
+  justify-content: start;
+}
+
+.col-aligm-self-center #mi-foto {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: 150px;
+}
+
+/*#banner-titulo {
+  align-items: flex-start;
+  padding-bottom: 1.5rem;
+}*/
+#titulo-trabajos {
+  color: #04414d;
+  text-align: center;
+  margin: 2em;
+}
+
+#mi-foto {
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+#banner-nombre {
+  justify-content: center;
+}
+.imagenes {
+  max-width: 150px;
+  max-height: 90px;
+  border-radius: 10px;
+}
+
+.btn btn-primary {
+  padding: 10px;
+}
+#acordeones {
+  background-color: #f1f5f6;
+}
+.progress {
+  height: 50px;
+}

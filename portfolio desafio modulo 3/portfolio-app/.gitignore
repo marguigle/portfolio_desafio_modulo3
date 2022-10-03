@@ -36,9 +36,7 @@ yarn-error.log
 /libpeerconnection.log
 testem.log
 /typings
-gi
+
 # System files
 .DS_Store
 Thumbs.db
-../../bootstrap/
-../../github-git-cheat-sheet.pdf
