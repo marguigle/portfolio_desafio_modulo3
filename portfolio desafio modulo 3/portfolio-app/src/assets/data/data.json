@@ -1,5 +1,15 @@
 {
   "nombre": "MARCELO G. IGLESIA",
   "titulo1": "MEDICO",
-  "titulo2": "FULL STACK WEB DEVELOPER JR."
+  "titulo2": "FULL STACK WEB DEVELOPER JR.",
+  "banner_BG": "/assets/images/banner-g8b8f7944b_1920.jpg",
+  "fotoMia": "/assets/images/foto mia.jpg",
+  "imgHMVL": "./assets/images/hospital VL.jpg",
+  "imgHSI": "/assets/images/hospita san isidro.jpg",
+  "imgLaRib": "/assets/images/laRibera.jpg",
+  "imgOsde": "/assets/images/Logo_OSDE_2020.png",
+  "imgSMG": "/assets/images/logo swissMedical.png",
+  "imgIncu": "/assets/images/incucai.jpg",
+  "imgEme": "/assets/images/emergencias.jpg",
+  "imgTrini": "/assets/images/trinidad.png"
 }
