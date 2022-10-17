@@ -7,12 +7,14 @@ import { PortfolioService } from '../servicios/portfolio.service';
   styleUrls: ['./exp-laboral.component.css'],
 })
 export class ExpLaboralComponent implements OnInit {
+  trabajosList: any;
   constructor(private datosPortfolio: PortfolioService) {}
   miPortfolio: any;
 
   ngOnInit(): void {
-    /* this.datosPortfolio.obtenerDatos().subscribe((data) => {
-      console.log(data);
-      this.miPortfolio = data;*/
+    this.datosPortfolio.obtenerDatos().subscribe((data) => {
+      this.miPortfolio = data;
+      this.trabajosList = data.trabajos;
+    });
   }
 }

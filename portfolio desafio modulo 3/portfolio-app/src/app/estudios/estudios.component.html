@@ -1,5 +1,10 @@
 <!--ESTUDIOS-->
 <div class="container">
+  <div class="shadow-lg p-3 mb-5 bg-body rounded">
+    <h1>ESTUDIOS</h1>
+  </div>
+</div>
+<div class="container">
   <div class="row" id="acordeones">
     <div class="col-2"></div>
     <div class="col-md-8">
@@ -25,12 +30,17 @@
           >
             <div class="accordion-body">
               <ul>
-                <li>
-                  SECUNDARIO: COLEGIO " ALPE " BARCELONA, ESPAÑA (1976-78)
-                  BACHILLER - "JESUS EN EL HUERTO DE LOS OLIVOS”
+                <li *ngFor="let estudio of itemEstudio">
+                  <p>
+                    {{ estudio.tipo }} {{ estudio.lugar }} {{ estudio.titulo }}
+                    {{ estudio.fecha }}
+                  </p>
                 </li>
 
-                <li>UNIVERSITARIO: MEDICINA - U.B.A.</li>
+                <!----  <li>UNIVERSITARIO: MEDICINA - U.B.A.</li>
+
+                   (SECUNDARIO: COLEGIO " ALPE " BARCELONA, ESPAÑA (1976-78)
+                  BACHILLER - "JESUS EN EL HUERTO DE LOS OLIVOS”)
 
                 <li>
                   POSGRADO: RESIDENCIA DE CLINICA MÉDICA EN HOSPITAL "BERNARDO
@@ -49,11 +59,12 @@
                   CURSO DE CAPACITACION Y PERFECCIONAMIENTO TECNICO PROFESIONAL
                   EN AUDITORIA MÉDICA Y GARANTIA DE CALIDAD EN SERVICIOS DE
                   SALUD.2010
-                </li>
+                </li>-->
               </ul>
             </div>
           </div>
         </div>
+
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
             <button
@@ -67,6 +78,7 @@
               ROTACIONES - CONGRESOS – JORNADAS
             </button>
           </h2>
+
           <div
             id="collapseTwo"
             class="accordion-collapse collapse"
@@ -75,13 +87,15 @@
           >
             <div class="accordion-body">
               <ul>
-                <li>
-                  - ROTACION POR EL SERVICIO DE CARDIOLOGIA DEL HOSPITAL "COSME
-                  ARGERICH"
+                <li *ngFor="let itemcon of itemCongreso">
+                  {{ itemcon.lugar }} {{ itemcon.titulo }}
                 </li>
 
-                <li>
-                  SIMPOCIO " ETADO ACTUAL DE LA RESISTENCIA BACTERIANA, ROL DE
+                <!----   - ROTACION POR EL SERVICIO DE CARDIOLOGIA DEL HOSPITAL "COSME
+                  ARGERICH"  
+                          <li>
+
+                  SIMPOSIO " ETADO ACTUAL DE LA RESISTENCIA BACTERIANA, ROL DE
                   LOS INHIBIDORES DE LAS BETALACTAMASAS "- ANTIMICROBIANOS 90 -
                   II CONGRESO ITERNACIONAL DE SADEBAC –
                 </li>
@@ -166,11 +180,12 @@
                   ORGANOS’ HOSPITAL BERNARDO HOUSSAY, DISERTANTE, 2009
                 </li>
 
-                <li>JORNADAS DE KINESIOLOGIA EN EL PACIENTE CRITICO, 2009</li>
+                <li>JORNADAS DE KINESIOLOGIA EN EL PACIENTE CRITICO, 2009</li>-->
               </ul>
             </div>
           </div>
         </div>
+
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingThree">
             <button
@@ -192,12 +207,11 @@
           >
             <div class="accordion-body">
               <ul>
-                <li>
-                  "SALMONELLOSIS EN L.E.S. "XII JORNADAS NACIONALES
-                  INTERRESIDENCIAS DE CLINICA MEDICA AÑO 1990
+                <li *ngFor="let trabPres of itemTrabPres">
+                  {{ trabPres.titulo }} {{ trabPres.lugar }}
                 </li>
 
-                <li>
+                <!----     <li>
                   "SEPSIS POR SHIGELLA" XVIII JORNADAS NACIONALES INTERRESIDEN-
                   CIAS DE CLINICA MEDICA-CONGRESO NACIONAL DE MEDICINA 1 AÑO
                   1990
@@ -243,7 +257,7 @@
                   ÉVALUACION DE LA MORTALIDAD,CAUSAS MAS FRECUENTES E
                   INDICACIONES DDE HEMDIALISIS EN LA INSUFICIENCIA RENAL
                   AGUDA,18 O CONGRESO ARGENTINO DE TERAPIA INTENSIVA,2008
-                </li>
+                </li>-->
               </ul>
             </div>
           </div>
@@ -269,12 +283,13 @@
           >
             <div class="accordion-body">
               <ul>
-                <li>
-                  DOCENTE DEL CURSO TEORICO-PRACTICO "COMPLICACIONES CLINICAS
-                  POSOPERATORIAS "REALIZADO ENTRE EL MES DE MAYO Y DICIEMBRE DE
-                  1993, DURACION CINCUENTA HORAS.
+                <li *ngFor="let docente of itemActividadDocente">
+                  {{ docente.titulo }} {{ docente.lugar }}
                 </li>
-
+                <!----
+<li> DOCENTE DEL CURSO TEORICO-PRACTICO "COMPLICACIONES CLINICAS
+  POSOPERATORIAS "REALIZADO ENTRE EL MES DE MAYO Y DICIEMBRE DE
+  1993, DURACION CINCUENTA HORAS.</li>
                 <li>
                   DOCENTE DE MEDICINA I Y II DE LA CARRERA DE MEDICINA DE LA
                   UNIVERSIDAD AUSTRAL DESDE EL AÑO 2000
@@ -288,7 +303,7 @@
 
                 <li>
                   CARRERA DOCENTE DICTADA POR LA FACULTAD DE MEDICINA DE LA UBA.
-                </li>
+                </li>-->
               </ul>
             </div>
           </div>
@@ -297,4 +312,5 @@
     </div>
   </div>
 </div>
+<br /><br />
 <!--FIN ESTUDIOS-->

@@ -1,27 +1,57 @@
-<!---exp laboral-->
+<!---exp laboral titulo-->
 <div class="container">
-  <div class="row">
-    <div class="col"><h4 id="titulo-trabajos">EXPERIENCIA LABORAL</h4></div>
+  <div class="container">
+    <div class="shadow-lg p-3 mb-5 bg-body rounded">
+      <h1>EXPERIENCIA LABORAL</h1>
+    </div>
   </div>
-
+  <br /><br />
+  <!--fin titulo-->
+  <!----
   <div class="row align-content-end">
     <div class="col-2">
-      <img [src]="miPortfolio.imgHMVL" />
+      <img [src]="miPortfolio.imgHMVL" [ngClass]="'foto'" />
     </div>
+  -->
+  <div class row>
+    <div class="col-2">
+      <!---- <img [src]="miPortfolio.imgLaRib" [ngClass]="'foto'" />
+      <img [src]="miPortfolio.imgLaRib" [ngClass]="'foto'" />-->
+    </div>
+
+    <div class="col-8">
+      <ul>
+        <li *ngFor="let expLaboral of trabajosList">
+          <p>
+            {{ expLaboral.cargo }} {{ expLaboral.lugar }}
+            {{ expLaboral.fecha }}
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!----exp del vl
     <div class="col">
-      <p>
-        MEDICO INTERINO DE GUARDIA EN TERAPIA INTENSIVA DEL HOSPITAL" B. A.
-        HOUSSAY" DE VICENTE LOPEZ DESDE 1/6/94 -MEDICO DE TERAPIA INTENSIVA CON
-        NOMBRAMIENTO DE 36 HS DEL HOSPITAL "B.A.HOUSSAY" DESDE 1995.
-      </p>
-    </div>
+   
+        
+          <p>
+            MEDICO INTERINO DE GUARDIA EN TERAPIA INTENSIVA DEL HOSPITAL" B. A.
+            HOUSSAY" DE VICENTE LOPEZ DESDE 1/6/94 -MEDICO DE TERAPIA INTENSIVA
+            CON NOMBRAMIENTO DE 36 HS DEL HOSPITAL "B.A.HOUSSAY" DESDE 1995.
+          </p>
+     
+    </div>-->
+
+  <!---resto de trabajos--
+
     <div class="row">
       <div class="col" style="height: 30px"></div>
     </div>
 
     <div class="row">
       <div class="col-2">
-        <img src="./images/laRibera.jpg" alt="la ribera" class="imagenes" />
+        <img [src]="miPortfolio.imgLaRib" [ngClass]="'foto'" />
       </div>
       <div class="col">
         <p>
@@ -37,11 +67,7 @@
 
     <div class="row">
       <div class="col-2">
-        <img
-          src="./images/emergencias.jpg"
-          alt="emergencias"
-          class="imagenes"
-        />
+        <img [src]="miPortfolio.imgEme" [ngClass]="'foto'" />
       </div>
       <div class="col">
         <p>
@@ -56,7 +82,7 @@
 
     <div class="row">
       <div class="col-2">
-        <img src="./images/incucai.jpg" alt="INCUCAI" class="imagenes" />
+        <img [src]="miPortfolio.imgIncu" [ngClass]="'foto'" />
       </div>
       <div class="col">
         <p>
@@ -71,7 +97,7 @@
 
     <div class="row">
       <div class="col-2">
-        <img src="./images/hospital VL.jpg" alt="HMVL" class="imagenes" />
+        <img [src]="miPortfolio.imgHMVL" [ngClass]="'foto'" />
       </div>
       <div class="col">
         <p>
@@ -86,7 +112,7 @@
 
     <div class="row">
       <div class="col-2">
-        <img src="./images/hospita san isidro.jpg" alt="HSI" class="imagenes" />
+        <img [src]="miPortfolio.imgHSI" [ngClass]="'foto'" />
       </div>
       <div class="col">
         <p>
@@ -101,7 +127,7 @@
 
     <div class="row">
       <div class="col-2">
-        <img src="./images/hospita san isidro.jpg" alt="" class="imagenes" />
+        <img [src]="miPortfolio.imgHSI" [ngClass]="'foto'" />
       </div>
       <div class="col">
         <p>
@@ -116,7 +142,7 @@
 
     <div class="row">
       <div class="col-2">
-        <img src="./images/Logo_OSDE_2020.png" alt="" class="imagenes" />
+        <img [src]="miPortfolio.imgOsde" [ngClass]="'foto'" />
       </div>
       <div class="col">
         <p>MEDICO DE URGENCIAS DOMICILIARIAS DE OSDDE DESDE 2010 HASTA 2012</p>
@@ -128,7 +154,7 @@
 
     <div class="row justify-content-end">
       <div class="col-2">
-        <img src="./images/Logo_OSDE_2020.png" alt="" class="imagenes" />
+        <img [src]="miPortfolio.imgOsde" [ngClass]="'foto'" />
       </div>
       <div class="col">
         <p>
@@ -143,7 +169,7 @@
 
     <div class="row">
       <div class="col-2">
-        <img src="./images/trinidad.png" alt="trinidad" class="imagenes" />
+        <img [src]="miPortfolio.imgTrini" [ngClass]="'foto'" />
       </div>
       <div class="col">
         <p>
@@ -158,11 +184,7 @@
 
     <div class="row">
       <div class="col-2">
-        <img
-          src="./images/logo swissMedical.png"
-          alt="swissMedical"
-          class="imagenes"
-        />
+        <img [src]="miPortfolio.imgSMG" [ngClass]="'foto'" />
       </div>
       <div class="col">
         <p>
@@ -173,8 +195,8 @@
       <div class="row">
         <div class="col" style="height: 30px"></div>
       </div>
-    </div>
-  </div>
+    </div> -->
 </div>
+
 <br />
 <!--FIN EXP LABORAL-->

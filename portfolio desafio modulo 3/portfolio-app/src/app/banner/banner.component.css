@@ -3,3 +3,8 @@
   color: #a0aeb1;
   background-image: url(/assets/images/banner-g8b8f7944b_1920.jpg);
 }
+.miFoto {
+  max-width: 120px;
+  margin: 20px 20px;
+  border-radius: 7px;
+}

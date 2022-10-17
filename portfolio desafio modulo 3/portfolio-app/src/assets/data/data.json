@@ -4,6 +4,7 @@
   "titulo2": "FULL STACK WEB DEVELOPER JR.",
   "banner_BG": "/assets/images/banner-g8b8f7944b_1920.jpg",
   "fotoMia": "/assets/images/foto mia.jpg",
+
   "imgHMVL": "./assets/images/hospital VL.jpg",
   "imgHSI": "/assets/images/hospita san isidro.jpg",
   "imgLaRib": "/assets/images/laRibera.jpg",
@@ -11,5 +12,257 @@
   "imgSMG": "/assets/images/logo swissMedical.png",
   "imgIncu": "/assets/images/incucai.jpg",
   "imgEme": "/assets/images/emergencias.jpg",
-  "imgTrini": "/assets/images/trinidad.png"
+  "imgTrini": "/assets/images/trinidad.png",
+
+  "trabajos": [
+    {
+      "cargo": "Medico de guardia de Terapia intensiva",
+      "lugar": "Hospital Bernardo A. Houssay de Vicente Lopez",
+      "fecha": " año 1995",
+      "logos": "/assets/images/laRibera.jpg"
+    },
+    {
+      "cargo": "Coordinador de internacion",
+      "lugar": "Sanatorio de la Ribera, San Fernando",
+      "fecha": "año 2000",
+      "logos": "/assets/images/laRibera.jpg"
+    },
+
+    {
+      "cargo": "Medico de guardia de UTIM",
+      "lugar": "Emergencias S.A.",
+      "fecha": "año 2001",
+      "logos": "/assets/images/emergencias.jpg"
+    },
+
+    {
+      "cargo": "Coordinador hospitalario de Transplante de INCUCAI",
+      "lugar": "Hospital Bernardo A. Houssay de Vicente Lopez",
+      "fecha": "desde año 2004'"
+    },
+
+    {
+      "cargo": "Coordinador del Area Roja del departamento de emergencias",
+      "lugar": "Hospital Bernardo A. Houssay de Vicente Lopez",
+      "fecha": "años 2008 a 2010"
+    },
+    {
+      "cargo": "Medico de guardia de UCI - UCO",
+      "lugar": "Hospital Central de San Isidro, Dr. Melchor Angel Posse.",
+      "fecha": "años 2004 a 2006"
+    },
+    {
+      "cargo": "Medico de Terapia Intensiva",
+      "lugar": "Hospital Central de San Isidro, Dr. Melchor Angel Posse.",
+      "fecha": "años 2006 a 2012"
+    },
+    {
+      "cargo": "Auditor Medico",
+      "lugar": "Sermex S.A para OSECAC",
+      "fecha": "años 2012 a 2013"
+    },
+    {
+      "cargo": "Medico de urgencias domiciliarias",
+      "lugar": "OSDE",
+      "fecha": "años 2010 a 2012"
+    },
+    {
+      "cargo": "Medico de internacion domiciliarias",
+      "lugar": "OSDE",
+      "fecha": "años 2010 hasta la actualidad"
+    },
+    {
+      "cargo": "Coordinador de guardia",
+      "lugar": "Sanatorio de La Trinidad, sede Flemming",
+      "fecha": "años 2013 a 2015"
+    },
+    {
+      "cargo": "Medico de internacion domiciliarias",
+      "lugar": "Swiss Medical",
+      "fecha": "años 2018 hasta la actualidad"
+    }
+  ],
+  "estudios": [
+    {
+      "tipo": "Secundario",
+      "lugar": " Colegio ALPE, Barcelona España,Jesus en el Huerto de Los Olivos,Buenos Aires",
+      "titulo": "bachiller",
+      "fecha": "1989"
+    },
+
+    {
+      "tipo": "Universitario",
+      "lugar": " U.B.A.",
+      "titulo": "Medico",
+      "fecha": "1981"
+    },
+    {
+      "tipo": "postgrado",
+      "lugar": "Hospital Bernardo A. Houssay de Vicente Lopez",
+      "titulo": "Residencia de Medicina Interna",
+      "fecha": "1990 a 1993"
+    },
+    {
+      "tipo": "Postgrado",
+      "lugar": "Hospital Bernardo A. Houssay de Vicente Lopez",
+      "titulo": "Jefatura de residentes de Medicina Interna",
+      "fecha": "1983 a 1994"
+    },
+    {
+      "tipo": "Postgrado",
+      "lugar": "Colegio Medico de la Provincia de Buenos Aires,Distrito IV",
+      "titulo": "Curso Superior de Medicina Legal",
+      "fecha": "1981"
+    },
+    {
+      "tipo": "Postgrado",
+      "lugar": "CUCAIBA",
+      "titulo": "Curso de coordinadores de transplante",
+      "fecha": "2004"
+    },
+    {
+      "tipo": "Postgrado",
+      "lugar": "CUCAIBA",
+      "titulo": "Curso de coordinadores de transplante",
+      "fecha": "2007"
+    },
+
+    {
+      "tipo": "Postgrado",
+      "titulo": "Curso de caoacitacion y perfeccionamiento tecnico profesional en auditoria medica y garantia de calidad en servicios de salud",
+      "fecha": "2010"
+    }
+  ],
+  "congresos": [
+    {
+      "lugar": "Rotacion por el servicio de cardiologia del Hospital Cosme Argerich ",
+      "titulo": ""
+    },
+    {
+      "lugar": "Simposio 'Estado actual de la resistencia bacteriana, rol de los inhibidores de las betalactamasas' ",
+      "titulo": "Antimicrobianos 90 - II congreso internacional de SADEBAC"
+    },
+    {
+      "lugar": "XVII jornadas nacionales interresidencias de Clinia Medica",
+      "titulo": "1990"
+    },
+    {
+      "lugar": "XVIII jornadas nacionales interresidencias de Clinia Medica",
+      "titulo": "1991"
+    },
+    {
+      "lugar": "XXI congreso Argentino de Medicina Interna, XIII jornadas Rioplatenses de medicina Interna",
+      "titulo": "Asociacion Medica Argentina - Sociedad de Medicina Interna de Buenos Aires"
+    },
+    {
+      "lugar": "Jornadas abiertas de trabajo: Plan de salud",
+      "titulo": "Secretaria de estencion universitaria de la UBA y la Secretaria de Salud Publica de la Municipalidad de Vicente Lopez"
+    },
+    {
+      "lugar": "XXXII congreso Argentino de Reumatologia",
+      "titulo": "Sociedad Argentina de Reumatologia 1993"
+    },
+    {
+      "lugar": "IX Congreso argentino de Terapia Intensiva - Jornadas Rioplatenses de Terapia Intensiva",
+      "titulo": "S.A.T.I."
+    },
+    {
+      "lugar": " Congreso argentino de Terapia Intensiva ",
+      "titulo": "SATI 2002"
+    },
+    {
+      "lugar": "Complicaciones Clinicas posoperatorias",
+      "titulo": "Facultad de medicina de la UBA - Hospital Bernardo A Houssay"
+    },
+    {
+      "lugar": "Curso Avanzado de Asistencia Respiratoria Mecanica",
+      "titulo": ""
+    },
+    {
+      "lugar": "IV Congreso Argentino de Procuracion de Organos y Tejidos para Transplante",
+      "titulo": "año 2006"
+    },
+    {
+      "lugar": "Curso Entrevista familiar y Ley de donante presunto, ",
+      "titulo": "año 2006"
+    },
+    {
+      "lugar": "III Jornadas Nacionales de Coordinacion hospitalaria de Transplante, ",
+      "titulo": "año 2006"
+    },
+    {
+      "lugar": "Primer simposio internacional de shock",
+      "titulo": "Hospital Universitario Austral, año 2007"
+    },
+    {
+      "lugar": "Primeras Jornadas provinciales de Emergencias",
+      "titulo": "El Sistema de Emergencias como politica de estado, año 2008"
+    },
+    {
+      "lugar": "II Simposio Internacional de Medicina de Emergencias",
+      "titulo": "SAE, año 2009"
+    },
+    {
+      "lugar": "Conferencia 'Pautas del manejo del potencial donante de organos",
+      "titulo": "como disertante, año 2009"
+    },
+    {
+      "lugar": "Jornadas de kinesiologia  en el paiente critico, ",
+      "titulo": "año 2009"
+    }
+  ],
+
+  "trabPresentados": [
+    {
+      "titulo": "Salmonellosis en LES",
+      "lugar": "XII Jornadas Nacionales Interresidencias de Clinica medica, año 1990"
+    },
+    {
+      "titulo": "sepsis por Shigella",
+      "lugar": "XVIII jornadas nacionales interresidencias de Clinia Medica, año 1990 "
+    },
+    {
+      "titulo": "Sacroileitis Infecciosa por Stafilococo Aureus",
+      "lugar": "XXI congreso Argentino de Medicina Interna,-Asosiacion Medica Argentina, año 1993"
+    },
+    {
+      "titulo": "Lepra y Lupus Eritematoso Sistemico - Mecanismos comunes de desregulacion autoinmune",
+      "lugar": "XXI congreso Argentino de Medicina Interna,-Asosiacion Medica Argentina, año 1993"
+    },
+    {
+      "titulo": "Sindrome antifosfolipidico primario",
+      "lugar": "XXXII congreso Argentino de Reumatologia - Sociedad Argentina de Reumatologia, año 1993"
+    },
+    {
+      "titulo": "Monografia 'Responsabilidad Profesional'",
+      "lugar": "Curso Superior de Medicina Legal, año 2000"
+    },
+    {
+      "titulo": "Monografia 'Proyecto Genoma Humano'",
+      "lugar": "Curso Superior de Medicina Legal, año 2000"
+    },
+    {
+      "titulo": "Monografia 'Enfermedad Respratoria Ocupacional'",
+      "lugar": "Curso Superior de Medicina Legal, año 2000"
+    },
+    {
+      "titulo": "Evaluacion de la mortalidad, causas mas frecuentes e indicaciones de Hemodialisis en la insuficiencia Renal aguda",
+      "lugar": "XVIII Congreso Argentino de Terapia Intensiva, año 2008"
+    }
+  ],
+  "actividadDocente": [
+    {
+      "titulo": "Docente del curso Teorico-Practico 'complicacionees clinicas posoperatorias",
+      "lugar": "duracion 50 horas, 1993"
+    },
+    {
+      "titulo": "Docente de Medicina I y II",
+      "lugar": "Carrera de medicina de la Universidad Austral, año 2000"
+    },
+    {
+      "titulo": "Participacion como disertante en el curso de Emergentologia",
+      "lugar": "Departamento de Emergencias del Hospital Bernardo Houssay"
+    },
+    { "titulo": "Carrera Docente", "lugar": "UBA, sede Hospital de San Isidro" }
+  ]
 }
