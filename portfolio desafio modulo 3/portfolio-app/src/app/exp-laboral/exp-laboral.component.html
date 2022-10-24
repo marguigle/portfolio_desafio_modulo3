@@ -1,202 +1,27 @@
 <!---exp laboral titulo-->
-<div class="container">
+<div class="container shadow-lg p-3 mb-5 bg-body rounded">
+  <br />
   <div class="container">
     <div class="shadow-lg p-3 mb-5 bg-body rounded">
-      <h1>EXPERIENCIA LABORAL</h1>
+      <h3>EXPERIENCIA LABORAL</h3>
     </div>
   </div>
   <br /><br />
   <!--fin titulo-->
-  <!----
-  <div class="row align-content-end">
-    <div class="col-2">
-      <img [src]="miPortfolio.imgHMVL" [ngClass]="'foto'" />
-    </div>
-  -->
-  <div class row>
-    <div class="col-2">
-      <!---- <img [src]="miPortfolio.imgLaRib" [ngClass]="'foto'" />
-      <img [src]="miPortfolio.imgLaRib" [ngClass]="'foto'" />-->
-    </div>
 
-    <div class="col-8">
-      <ul>
-        <li *ngFor="let expLaboral of trabajosList">
-          <p>
+  <div>
+    <ul class="deco">
+      <li *ngFor="let expLaboral of trabajosList">
+        <div>
+          <img [src]="expLaboral.logos" [ngClass]="'foto'" />
+          <br /><br />
+          <p id="parrafosExpLab">
             {{ expLaboral.cargo }} {{ expLaboral.lugar }}
             {{ expLaboral.fecha }}
           </p>
-        </li>
-      </ul>
-    </div>
+          <br />
+        </div>
+      </li>
+    </ul>
   </div>
-
-  <!----exp del vl
-    <div class="col">
-   
-        
-          <p>
-            MEDICO INTERINO DE GUARDIA EN TERAPIA INTENSIVA DEL HOSPITAL" B. A.
-            HOUSSAY" DE VICENTE LOPEZ DESDE 1/6/94 -MEDICO DE TERAPIA INTENSIVA
-            CON NOMBRAMIENTO DE 36 HS DEL HOSPITAL "B.A.HOUSSAY" DESDE 1995.
-          </p>
-     
-    </div>-->
-
-  <!---resto de trabajos--
-
-    <div class="row">
-      <div class="col" style="height: 30px"></div>
-    </div>
-
-    <div class="row">
-      <div class="col-2">
-        <img [src]="miPortfolio.imgLaRib" [ngClass]="'foto'" />
-      </div>
-      <div class="col">
-        <p>
-          COORDINADOR DE INTERNACION DEL "SANATORIO DE LA RIBERA " DE SAN
-          FERNANDO DURANTE EL AÑO 2000
-        </p>
-      </div>
-
-      <div class="row">
-        <div class="col" style="height: 30px"></div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-2">
-        <img [src]="miPortfolio.imgEme" [ngClass]="'foto'" />
-      </div>
-      <div class="col">
-        <p>
-          MEDICO DE GUARDIA DE UTIM EN "EMERGENCIAS S.A."-INTERNATIONAL HEALTH
-          SERVICES DESDE EL AÑO2001
-        </p>
-      </div>
-      <div class="row">
-        <div class="col" style="height: 30px"></div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-2">
-        <img [src]="miPortfolio.imgIncu" [ngClass]="'foto'" />
-      </div>
-      <div class="col">
-        <p>
-          COORDINADOR HOSPITALARIO DE TRASPLANTE NOMBRADO POR INCUCAI PARA EL
-          HOSPITAL " B.HOUSSAY" DESDE MAYO DEL 2004.
-        </p>
-      </div>
-      <div class="row">
-        <div class="col" style="height: 30px"></div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-2">
-        <img [src]="miPortfolio.imgHMVL" [ngClass]="'foto'" />
-      </div>
-      <div class="col">
-        <p>
-          COORDINADOR DE AREA ROJA DEL DEPARTAMENTO DE EMERGENCIAS DEL HOSPITAL
-          B.HOUSSAY DESDE 2008 HASTA 2010
-        </p>
-      </div>
-      <div class="row">
-        <div class="col" style="height: 30px"></div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-2">
-        <img [src]="miPortfolio.imgHSI" [ngClass]="'foto'" />
-      </div>
-      <div class="col">
-        <p>
-          MEDICO DE GUARDIA DE UCI-UCO DEL HOSPITAL CENTRAL DE SAN ISIDRO, DR.
-          MELCHOR POSSE.DESDE EL AÑO 2004 AL 2006.
-        </p>
-      </div>
-      <div class="row">
-        <div class="col" style="height: 30px"></div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-2">
-        <img [src]="miPortfolio.imgHSI" [ngClass]="'foto'" />
-      </div>
-      <div class="col">
-        <p>
-          MEDICO DE TERAPIA INTENSIVA DEL HOSPITAL CENTRAL DE SAN ISIDRO, DR.
-          MELCHOR POSSE, DESDE EL AÑO 2006 HASTA FEBRERO DE2012.
-        </p>
-      </div>
-      <div class="row">
-        <div class="col" style="height: 30px"></div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-2">
-        <img [src]="miPortfolio.imgOsde" [ngClass]="'foto'" />
-      </div>
-      <div class="col">
-        <p>MEDICO DE URGENCIAS DOMICILIARIAS DE OSDDE DESDE 2010 HASTA 2012</p>
-      </div>
-      <div class="row">
-        <div class="col" style="height: 30px"></div>
-      </div>
-    </div>
-
-    <div class="row justify-content-end">
-      <div class="col-2">
-        <img [src]="miPortfolio.imgOsde" [ngClass]="'foto'" />
-      </div>
-      <div class="col">
-        <p>
-          MEDICO DE INTERNACION DOMICILIARIA DE OSDE DESDE 2010 HASTA LA
-          ACTUALIDAD.
-        </p>
-      </div>
-      <div class="row">
-        <div class="col" style="height: 30px"></div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-2">
-        <img [src]="miPortfolio.imgTrini" [ngClass]="'foto'" />
-      </div>
-      <div class="col">
-        <p>
-          COORDINADOR DE GUARDIA DE SANATORIO DE LA TRINIDAD DE SAN ISIDRO, SEDE
-          FLEMING, DESE FEBRERO DE FEBRERO DE 2013 HASTA DICIEMBRE DE 2015.
-        </p>
-      </div>
-      <div class="row">
-        <div class="col" style="height: 30px"></div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-2">
-        <img [src]="miPortfolio.imgSMG" [ngClass]="'foto'" />
-      </div>
-      <div class="col">
-        <p>
-          MEDICO DE INTERNACION DOMICILIARIA PARA SWISS MEDICAL DESDE 2018 HASTA
-          LA ACTUALIDAD
-        </p>
-      </div>
-      <div class="row">
-        <div class="col" style="height: 30px"></div>
-      </div>
-    </div> -->
 </div>
-
-<br />
-<!--FIN EXP LABORAL-->

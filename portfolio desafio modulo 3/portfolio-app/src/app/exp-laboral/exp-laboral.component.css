@@ -1,3 +1,9 @@
 .foto {
   max-width: 80px;
 }
+.deco {
+  list-style-type: none;
+}
+#parrafosExpLab {
+  display: flex;
+}

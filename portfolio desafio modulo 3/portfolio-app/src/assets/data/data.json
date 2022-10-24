@@ -3,7 +3,12 @@
   "titulo1": "MEDICO",
   "titulo2": "FULL STACK WEB DEVELOPER JR.",
   "banner_BG": "/assets/images/banner-g8b8f7944b_1920.jpg",
-  "fotoMia": "/assets/images/foto mia.jpg",
+  "fotoMia": "/assets/images/fotoMia2.jpg",
+
+  "fechaNacimiento": "1963-7-13",
+  "nacionalidad": "Argentino",
+  "mail": "marguigle@yahoo.com.ar",
+  "telefono": "011-33517780",
 
   "imgHMVL": "./assets/images/hospital VL.jpg",
   "imgHSI": "/assets/images/hospita san isidro.jpg",
@@ -13,13 +18,15 @@
   "imgIncu": "/assets/images/incucai.jpg",
   "imgEme": "/assets/images/emergencias.jpg",
   "imgTrini": "/assets/images/trinidad.png",
+  "imgSermex": "/assets/images/Sermex",
 
+  "acercaDe": " Soy medico y siempre estuve muy atraido en todo lo relacionado con la tecnologia, ya se trate de herdware o software. Comence a explorar el maravilloso mundo de la programacion en un principio de manera autodidacta. Con el paso del tiempo lo que inicialmente consideraba un hobby, fue ocupando cada vez mas de mi tiempo. Empece a cursar Argentina Programa, lo que me abrio el espectro de tecnologias a aprender y me incentivo a aprender mas. Me entusiasma pensar en dedicarme de lleno a la progamacion ya que se transformo en una pasion. Tengo un gran entrenamiento en  habilidades blandas, que fui logrando a travez de mis años de experiencia que logre con el trato de personas por mi otra profesion, asi como tambien el trabajo en equipo.",
   "trabajos": [
     {
       "cargo": "Medico de guardia de Terapia intensiva",
       "lugar": "Hospital Bernardo A. Houssay de Vicente Lopez",
       "fecha": " año 1995",
-      "logos": "/assets/images/laRibera.jpg"
+      "logos": "./assets/images/hospital VL.jpg"
     },
     {
       "cargo": "Coordinador de internacion",
@@ -38,48 +45,57 @@
     {
       "cargo": "Coordinador hospitalario de Transplante de INCUCAI",
       "lugar": "Hospital Bernardo A. Houssay de Vicente Lopez",
-      "fecha": "desde año 2004'"
+      "fecha": "desde año 2004'",
+      "logos": "/assets/images/incucai.jpg"
     },
 
     {
       "cargo": "Coordinador del Area Roja del departamento de emergencias",
       "lugar": "Hospital Bernardo A. Houssay de Vicente Lopez",
-      "fecha": "años 2008 a 2010"
+      "fecha": "años 2008 a 2010",
+      "logos": "./assets/images/hospital VL.jpg"
     },
     {
       "cargo": "Medico de guardia de UCI - UCO",
       "lugar": "Hospital Central de San Isidro, Dr. Melchor Angel Posse.",
-      "fecha": "años 2004 a 2006"
+      "fecha": "años 2004 a 2006",
+      "logos": "/assets/images/hospita san isidro.jpg"
     },
     {
       "cargo": "Medico de Terapia Intensiva",
       "lugar": "Hospital Central de San Isidro, Dr. Melchor Angel Posse.",
-      "fecha": "años 2006 a 2012"
+      "fecha": "años 2006 a 2012",
+      "logos": "/assets/images/hospita san isidro.jpg"
     },
     {
       "cargo": "Auditor Medico",
       "lugar": "Sermex S.A para OSECAC",
-      "fecha": "años 2012 a 2013"
+      "fecha": "años 2012 a 2013",
+      "logos": "/assets/images/sermex.png"
     },
     {
       "cargo": "Medico de urgencias domiciliarias",
       "lugar": "OSDE",
-      "fecha": "años 2010 a 2012"
+      "fecha": "años 2010 a 2012",
+      "logos": "/assets/images/Logo_OSDE_2020.png"
     },
     {
       "cargo": "Medico de internacion domiciliarias",
       "lugar": "OSDE",
-      "fecha": "años 2010 hasta la actualidad"
+      "fecha": "años 2010 hasta la actualidad",
+      "logos": "/assets/images/Logo_OSDE_2020.png"
     },
     {
       "cargo": "Coordinador de guardia",
       "lugar": "Sanatorio de La Trinidad, sede Flemming",
-      "fecha": "años 2013 a 2015"
+      "fecha": "años 2013 a 2015",
+      "logos": "/assets/images/trinidad.png"
     },
     {
       "cargo": "Medico de internacion domiciliarias",
       "lugar": "Swiss Medical",
-      "fecha": "años 2018 hasta la actualidad"
+      "fecha": "años 2018 hasta la actualidad",
+      "logos": "/assets/images/logo swissMedical.png"
     }
   ],
   "estudios": [
@@ -264,5 +280,10 @@
       "lugar": "Departamento de Emergencias del Hospital Bernardo Houssay"
     },
     { "titulo": "Carrera Docente", "lugar": "UBA, sede Hospital de San Isidro" }
+  ],
+
+  "hardSkills": [
+    { "item": "html", "porcentaje": "60" },
+    { "item": "css", "porcentaje": "60" }
   ]
 }
